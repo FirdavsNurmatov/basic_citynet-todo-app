@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: black; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* padding-top: 40px; */
+}
+
+.dashboard_container {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 10px;
+}
+
+.user_card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 609px;
+    max-height: 301px;
+    border-radius: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1c1c1e;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #777777;
+}
+
+.user_card__block {
+    display: flex;
+    gap: 30px;
+}
+
+.img {
+    border-radius: 12px;
+    width: 147px;
+    height: 100px;
+}
+
+.user_card__fullname {
+    color: white;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user_card__role {
+    color: #bbb;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user_card__block2 {
+    display: flex;
+    gap: 15px;
+}
+
+.todo_quantity {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    color: #000000;
+}
+
+.blue_card {
+    background-color: #b0d6ff;
+    border-radius: 1rem;
+    padding-top: 10px;
+    width: 131px;
+    height: 98px;
+}
+
+
+.yellow_card {
+    background-color: #fdbf01;
+    border-radius: 16px;
+    padding-top: 10px;
+    width: 131px;
+    height: 98px;
+}
+
+
+.green_card {
+    background-color: #9ad573;
+    border-radius: 16px;
+    padding-top: 10px;
+    width: 131px;
+    height: 98px;
+}
+
+
+.red_card {
+    background-color: #ff4646;
+    border-radius: 16px;
+    padding-top: 10px;
+    width: 131px;
+    height: 98px;
+}
