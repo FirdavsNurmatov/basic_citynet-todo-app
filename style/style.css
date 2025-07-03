@@ -1,106 +1,118 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  font-family: 'Poppins', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
 }
 
 .dashboard_container {
-  background-color: black;
-  width: 100%;
-  max-width: 1280px;
-  max-height: 720px;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    max-width: 1280px;
+    max-height: 720px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.block1, .block2{
+.block1,
+.block2 {
     margin-right: 10px;
 }
 
 .user_card {
-  display: flex;
-  flex-direction: column;
-  background-color: #1c1c1e;
-  border: 1px solid #777777;
-  border-radius: 20px;
-  padding: 10px;
-  width: 100%;
-  max-width: 390px;
-  margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1c1e;
+    border: 1px solid #777777;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 390px;
+    margin-bottom: 20px;
 }
 
 .user_card__block {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .img {
-  border-radius: 12px;
-  width: 147px;
-  height: 100px;
-  object-fit: cover;
-  margin-right: 20px;
+    border-radius: 12px;
+    width: 147px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
 }
 
 .user_card__fullname {
-  color: white;
-  font-weight: 900;
-  font-size: 28px;
-  line-height: 140%;
-  text-align: center;
-  width: 100%;
+    color: white;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 140%;
+    text-align: center;
+    width: 100%;
 }
 
 .user_card__role {
-  color: #bbb;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 140%;
-  text-align: center;
-  width: 100%;
+    color: #bbb;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    width: 100%;
 }
 
 .user_card__block2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .todo_quantity {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 50px;
-  text-align: center;
-  color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    color: black;
 }
 
 .blue_card,
 .yellow_card,
 .green_card,
 .red_card {
-  border-radius: 16px;
-  padding: 10px;
-  width: 100px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 5px;
+    border-radius: 16px;
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
 }
 
-.blue_card { background-color: #b0d6ff; }
-.yellow_card { background-color: #fdbf01; }
-.green_card { background-color: #9ad573; }
-.red_card { background-color: #ff4646; }
+.blue_card {
+    background-color: #b0d6ff;
+}
+
+.yellow_card {
+    background-color: #fdbf01;
+}
+
+.green_card {
+    background-color: #9ad573;
+}
+
+.red_card {
+    background-color: #ff4646;
+}
