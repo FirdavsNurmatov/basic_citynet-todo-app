@@ -20,27 +20,30 @@ body {
   max-width: 1280px;
   max-height: 720px;
   padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block1, .block2{
+    margin-right: 10px;
 }
 
 .user_card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   background-color: #1c1c1e;
   border: 1px solid #777777;
   border-radius: 20px;
   padding: 10px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 390px;
+  margin-bottom: 20px;
 }
 
 .user_card__block {
   display: flex;
-  gap: 20px;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .img {
@@ -48,6 +51,7 @@ body {
   width: 147px;
   height: 100px;
   object-fit: cover;
+  margin-right: 20px;
 }
 
 .user_card__fullname {
@@ -56,21 +60,22 @@ body {
   font-size: 28px;
   line-height: 140%;
   text-align: center;
+  width: 100%;
 }
 
 .user_card__role {
   color: #bbb;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 140%;
   text-align: center;
+  width: 100%;
 }
 
 .user_card__block2 {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  /* flex-wrap: wrap; */
+  margin-top: 10px;
 }
 
 .todo_quantity {
@@ -92,6 +97,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 5px;
 }
 
 .blue_card { background-color: #b0d6ff; }
