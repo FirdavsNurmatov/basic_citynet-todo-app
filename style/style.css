@@ -24,6 +24,14 @@ body {
     justify-content: space-between;
 }
 
+#current_time {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+}
+
 .block1,
 .block2 {
     margin-right: 10px;
