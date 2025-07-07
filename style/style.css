@@ -52,7 +52,7 @@ body {
 .user_card__block {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom:5px;
 }
 
 .img {
@@ -100,27 +100,38 @@ body {
 .green_card,
 .red_card {
     border-radius: 16px;
-    padding: 10px;
+    /* padding: 15px; */
+    padding-right: 15px;
+    padding-left: 5px;
+    padding-top: 15px;
     width: 100px;
-    height: 80px;
-    display: flex;
+    height: 85px;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     margin: 0 5px;
+    position: relative;
 }
 
 .blue_card {
-    background-color: #b0d6ff;
+    background-color: #007bff;
 }
 
 .yellow_card {
-    background-color: #fdbf01;
+    background-color: #ffc107;
 }
 
 .green_card {
-    background-color: #9ad573;
+    background-color: #fd7e14;
 }
 
 .red_card {
-    background-color: #ff4646;
+    background-color: #28a745;
+}
+
+.icon {
+    position: absolute;
+    font-size: 20px;
+    right: 2px;
+    top:1px
 }
