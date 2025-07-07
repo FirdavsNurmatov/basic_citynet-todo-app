@@ -58,7 +58,7 @@ const render = (users) => {
             <p class="todo_quantity">${item.data[2] + item.data[6]}</p>
           </div>
           <div class="green_card">
-            <p class="icon">📨</p>
+            <p class="icon">🕓</p>
             <p class="todo_quantity">${item.data[4]}</p>
           </div>
           <div class="red_card">
