@@ -87,5 +87,5 @@ document.addEventListener("DOMContentLoaded", () => {
   getAllData(), updateTime();
 });
 
-setInterval(getAllData, 5 * 60 * 1000);
+setInterval(getAllData, 5 * 1000);
 setInterval(updateTime, 1000);
