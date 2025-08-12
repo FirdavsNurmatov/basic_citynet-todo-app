@@ -37,7 +37,28 @@ const render = (users) => {
   const array2 = [];
   const array3 = [];
 
+  const minusTask = [
+    { first: 15, second: 0, third: 0, forth: 5 },
+    { first: 1, second: 0, third: 3, forth: 73 },
+    { first: 0, second: 8, third: 0, forth: 29 },
+    { first: 5, second: 5, third: 5, forth: 4 },
+    { first: 0, second: 0, third: 3, forth: 33 },
+    { first: 1, second: 0, third: 0, forth: 1 },
+    { first: 4, second: 0, third: 0, forth: 2 },
+    { first: 0, second: 0, third: 0, forth: 1 },
+  ];
+
   users.forEach((item, index) => {
+    let firstBox = item.data[1] + item.data[5];
+    let secondBox = item.data[2] + item.data[6];
+    let thirdBox = item.data[4];
+    let forthBox = item.data[3];
+
+    firstBox -= minusTask[index].first;
+    secondBox -= minusTask[index].second;
+    thirdBox -= minusTask[index].third;
+    forthBox -= minusTask[index].forth;
+
     const userCard = `
       <div class="user_card">
         <div class="user_card__block">
@@ -51,19 +72,19 @@ const render = (users) => {
         <div class="user_card__block2">
           <div class="blue_card">
             <p class="icon">📌</p>
-            <p class="todo_quantity">${item.data[1] + item.data[5]}</p>
+            <p class="todo_quantity">${firstBox}</p>
           </div>
           <div class="yellow_card">
             <p class="icon">🔧</p>
-            <p class="todo_quantity">${item.data[2] + item.data[6]}</p>
+            <p class="todo_quantity">${secondBox}</p>
           </div>
           <div class="green_card">
             <p class="icon">🕓</p>
-            <p class="todo_quantity">${item.data[4]}</p>
+            <p class="todo_quantity">${thirdBox}</p>
           </div>
           <div class="red_card">
             <p class="icon">✔️</p>
-            <p class="todo_quantity">${item.data[3]}</p>
+            <p class="todo_quantity">${forthBox}</p>
           </div>
         </div>
       </div>
