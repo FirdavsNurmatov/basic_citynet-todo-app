@@ -40,7 +40,7 @@ const render = (users) => {
   const minusTask = [
     { first: 15, second: 0, third: 0, forth: 5 },
     { first: 1, second: 0, third: 3, forth: 73 },
-    { first: 0, second: 8, third: 0, forth: 29 },
+    { first: 0, second: 9, third: 0, forth: 29 },
     { first: 5, second: 5, third: 5, forth: 4 },
     { first: 0, second: 0, third: 3, forth: 33 },
     { first: 1, second: 0, third: 0, forth: 1 },
